@@ -1,32 +1,41 @@
 Dependencies for Project 'Music', Target 'Music': (DO NOT MODIFY !)
 CompilerVersion: 6190000::V6.19::ARMCLANG
 F (.\startup.s)(0x64F8E2E2)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./startup.o)
-F (.\MusicBox.cpp)(0x65051C3E)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./musicbox.o -MD)
-I (tm4c123gh6pm.h)(0x64F8E2E3)
-I (Music.h)(0x64FF9F6B)
-I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63891BF8)
-I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x63891BF2)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
-I (SysTick.h)(0x64FF9237)
-I (Switch.h)(0x64FF923E)
-F (.\Music.cpp)(0x64FF9F65)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./music.o -MD)
-I (Music.h)(0x64FF9F6B)
+F (.\MusicBox.cpp)(0x65082EC8)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./musicbox.o -MD)
+I (Sound.h)(0x65082E6E)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63891BF8)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x63891BF2)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
 I (tm4c123gh6pm.h)(0x64F8E2E3)
-I (SysTick.h)(0x64FF9237)
-F (.\SysTick.cpp)(0x64FF9F56)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./systick.o -MD)
-I (SysTick.h)(0x64FF9237)
+I (Music.h)(0x65082853)
+I (Piano.h)(0x65082EFB)
+I (ButtonLED.h)(0x65082AC1)
+F (.\Music.cpp)(0x65082B4A)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./music.o -MD)
+I (Music.h)(0x65082853)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63891BF8)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x63891BF2)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
 I (tm4c123gh6pm.h)(0x64F8E2E3)
-F (.\Switch.cpp)(0x64FF99FC)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./switch.o -MD)
-I (Switch.h)(0x64FF923E)
-I (tm4c123gh6pm.h)(0x64F8E2E3)
-I (Music.h)(0x64FF9F6B)
+I (Sound.h)(0x65082E6E)
+F (.\Sound.cpp)(0x65082B98)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./sound.o -MD)
+I (Sound.h)(0x65082E6E)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63891BF8)
 I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x63891BF2)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
-I (SysTick.h)(0x64FF9237)
+I (tm4c123gh6pm.h)(0x64F8E2E3)
+F (.\Piano.cpp)(0x6508288C)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./piano.o -MD)
+I (Piano.h)(0x65082EFB)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x63891BF2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (Sound.h)(0x65082E6E)
+I (tm4c123gh6pm.h)(0x64F8E2E3)
+F (.\ButtonLED.cpp)(0x65082E62)(-xc++ -std=c++17 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../..-I./RTE/_Music-IC:/Users/KevM9/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/KevM9/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o ./buttonled.o -MD)
+I (ButtonLED.h)(0x65082AC1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x63891BF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x63891BF2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63891BF8)
+I (tm4c123gh6pm.h)(0x64F8E2E3)
+I (Music.h)(0x65082853)
+I (Sound.h)(0x65082E6E)
+I (Piano.h)(0x65082EFB)

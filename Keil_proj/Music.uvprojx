@@ -401,14 +401,19 @@
               <FilePath>.\Music.cpp</FilePath>
             </File>
             <File>
-              <FileName>SysTick.cpp</FileName>
+              <FileName>Sound.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\SysTick.cpp</FilePath>
+              <FilePath>.\Sound.cpp</FilePath>
             </File>
             <File>
-              <FileName>Switch.cpp</FileName>
+              <FileName>Piano.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Switch.cpp</FilePath>
+              <FilePath>.\Piano.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>ButtonLED.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\ButtonLED.cpp</FilePath>
             </File>
           </Files>
         </Group>
