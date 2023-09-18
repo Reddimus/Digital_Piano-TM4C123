@@ -1,9 +1,9 @@
 // MusicBox.cpp
 
-#include "tm4c123gh6pm.h"
+#include "Sound.h"
 #include "Music.h"
-#include "SysTick.h"
-#include "Switch.h"
+#include "Piano.h"
+#include "ButtonLED.h"
 
 // Treat the specified functions with C linkage from startup.s to disable name mangling
 extern "C" {
@@ -13,18 +13,21 @@ extern "C" {
 }
 
 // Global class instance
+Sound sound;
 Music music;
-SysTick systick;
-Switch sw;
+Piano piano;
+ButtonsLEDs buttonsLEDs;
 
 int main(void) {
 	DisableInterrupts();
+	sound.init();
+	buttonsLEDs.init();
 	EnableInterrupts();  // SysTick uses interrupts
 	
 	while(true) {
-		if (music.isOn())
-			music.playSongNotes();
-		else
+		if (sound.getMode() == PIANO)
 			WaitForInterrupt();
+		else if (sound.getMode() == MUSIC)
+			music.playSong();
 	}
 }

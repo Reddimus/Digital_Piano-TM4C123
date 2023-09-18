@@ -303,8 +303,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\SysTick.cpp</PathWithFileName>
-      <FilenameWithoutPath>SysTick.cpp</FilenameWithoutPath>
+      <PathWithFileName>.\Sound.cpp</PathWithFileName>
+      <FilenameWithoutPath>Sound.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -315,8 +315,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Switch.cpp</PathWithFileName>
-      <FilenameWithoutPath>Switch.cpp</FilenameWithoutPath>
+      <PathWithFileName>.\Piano.cpp</PathWithFileName>
+      <FilenameWithoutPath>Piano.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>6</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\ButtonLED.cpp</PathWithFileName>
+      <FilenameWithoutPath>ButtonLED.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
