@@ -70,22 +70,30 @@ void GPIOPortD_Handler(void){
 	for (uint32_t time=0;time<72724;time++);
 	if(sound.getMode() == PIANO) {
 
-		if(GPIO_PORTD_RIS_R&PD0){	// if pd0 piano key pressed
+		// while C piano key (PD0) is pressed play note C from current octave
+		if(GPIO_PORTD_RIS_R&PD0) {
 			GPIO_PORTD_ICR_R = PD0;	// acknowledge flag0
-			piano.playNoteC();
+			while (!(GPIO_PORTD_DATA_R&PD0))
+				piano.playNoteC();
 		}
-		if(GPIO_PORTD_RIS_R&PD1){	// if pd1 piano key pressed
+		// while D piano key (PD1) is pressed play note D from current octave
+		if(GPIO_PORTD_RIS_R&PD1) {
 			GPIO_PORTD_ICR_R = PD1;	// acknowledge flag1
-			piano.playNoteD();
+			while (!(GPIO_PORTD_DATA_R&PD1))
+				piano.playNoteD();
 		}
-		if(GPIO_PORTD_RIS_R&PD2){	// if pd2 piano key pressed
+		// while E piano key (PD2) is pressed play note E from current octave
+		if(GPIO_PORTD_RIS_R&PD2) {
 			GPIO_PORTD_ICR_R = PD2;	// acknowledge flag2
-			piano.playNoteE();
+			while (!(GPIO_PORTD_DATA_R&PD2))
+				piano.playNoteE();
 		}
-		if(GPIO_PORTD_RIS_R&PD3){	// if pd3 piano key pressed
+		// while F piano key (PD3) is pressed play note F from current octave
+		if(GPIO_PORTD_RIS_R&PD3) {
 			GPIO_PORTD_ICR_R = PD3;	// acknowledge flag3
-			piano.playNoteF();
-		}			
+			while (!(GPIO_PORTD_DATA_R&PD3))
+				piano.playNoteF();
+		}
 	}	 
 }
 
