@@ -9,7 +9,6 @@ private:
 	enum notePosition {
 		cPosition, dPosition, ePosition, fPosition, gPosition, aPosition, bPosition
 	};
-	bool pianoKeys;
 
 public:
 	void playNoteC(void);
@@ -19,8 +18,6 @@ public:
 	void playNoteG(void);
 	void playNoteA(void);
 	void playNoteB(void);
-	bool isOn(void);
-	void turnOff(void);
 	void turnOn(void);
 };
 

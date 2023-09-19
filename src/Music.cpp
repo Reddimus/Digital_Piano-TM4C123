@@ -36,10 +36,6 @@ public:
 		{C3,4}, {C3,4}, {G3,4}, {G3,4}, {A3,4}, {A3,4}, {G3,8}, 
 		{F3,4}, {F3,4}, {E3,4}, {E3,4}, {D3,4}, {D3,4}, {C3,8}, {0,0}
 	};
-
-	// bool isSongToneIdxPaused(uint8_t idx) {
-	// 	return idx == pause;
-	// }
 };
 
 Song song;
@@ -55,19 +51,6 @@ Music::Music(void) {
 
 void Music::nextSong(void) {
 	songIdx = (songIdx+1) % songsSize;
-}
-
-bool Music::isOn(void) {
-	return play;
-}
-
-void Music::turnOff(void) {
-	play = false;
-	songIdx = 0;
-}
-
-void Music::turnOn(void) {
-	play = true;
 }
 
 void Music::playSong(void) {

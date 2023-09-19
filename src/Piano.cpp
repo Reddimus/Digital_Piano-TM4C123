@@ -54,14 +54,3 @@ void Piano::playNoteB(void) {
 	Delay();
 	sound.stop();
 }
-bool Piano::isOn(void) {
-	return pianoKeys;
-}
-
-void Piano::turnOff(void) {
-	pianoKeys = false;
-}
-
-void Piano::turnOn(void) {
-	pianoKeys = true;
-}

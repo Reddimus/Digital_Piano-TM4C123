@@ -15,9 +15,6 @@ private:
 public:
 	Music(void);
 	void nextSong(void);
-	bool isOn(void);
-	void turnOff(void);
-	void turnOn(void);
 	void playSong(void);
 };
 
