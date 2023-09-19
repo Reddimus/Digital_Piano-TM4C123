@@ -71,7 +71,7 @@ This project encompasses a digital piano powered by a TM4C123 MCU, integrating a
 ## How to Run
 
 1. Create DAC circuit.
-    - See `Digital_Piano_Schematic.pdf` for reference.
+    - See `DigitalPiano_Schematic.pdf` for reference.
 1. Compile all `.cpp` & `.h` files.
 2. Flash onto your TM4C123GH6PM microcontroller.
     - You can use the provided Keil uVision project folder.
