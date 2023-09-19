@@ -466,52 +466,52 @@ Image Symbol Table
     .text                                    0x000004b6   Section        0  indicate_semi.o(.text)
     .text                                    0x000004b8   Section        0  sys_exit.o(.text)
     [Anonymous Symbol]                       0x000004c4   Section        0  buttonled.o(.text.GPIOPortD_Handler)
-    [Anonymous Symbol]                       0x000005b0   Section        0  buttonled.o(.text.GPIOPortF_Handler)
-    [Anonymous Symbol]                       0x00000670   Section        0  sound.o(.text.SysTick_Handler)
-    _GLOBAL__sub_I_Music.cpp                 0x00000691   Thumb Code     8  music.o(.text._GLOBAL__sub_I_Music.cpp)
-    [Anonymous Symbol]                       0x00000690   Section        0  music.o(.text._GLOBAL__sub_I_Music.cpp)
-    _GLOBAL__sub_I_MusicBox.cpp              0x00000699   Thumb Code    16  musicbox.o(.text._GLOBAL__sub_I_MusicBox.cpp)
-    [Anonymous Symbol]                       0x00000698   Section        0  musicbox.o(.text._GLOBAL__sub_I_MusicBox.cpp)
-    [Anonymous Symbol]                       0x000006a8   Section        0  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortD_InitEv)
-    [Anonymous Symbol]                       0x000007c8   Section        0  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortF_InitEv)
-    [Anonymous Symbol]                       0x000008e8   Section        0  buttonled.o(.text._ZN11ButtonsLEDs4initEv)
-    [Anonymous Symbol]                       0x00000900   Section        0  music.o(.text._ZN4SongC2Ev)
-    [Anonymous Symbol]                       0x00000a50   Section        0  music.o(.text._ZN5Music8nextSongEv)
-    [Anonymous Symbol]                       0x00000a78   Section        0  music.o(.text._ZN5Music8playSongEv)
-    [Anonymous Symbol]                       0x00000bbc   Section        0  music.o(.text._ZN5MusicC2Ev)
-    [Anonymous Symbol]                       0x00000bf8   Section        0  piano.o(.text._ZN5Piano9playNoteCEv)
-    [Anonymous Symbol]                       0x00000c38   Section        0  piano.o(.text._ZN5Piano9playNoteDEv)
-    [Anonymous Symbol]                       0x00000c7c   Section        0  piano.o(.text._ZN5Piano9playNoteEEv)
-    [Anonymous Symbol]                       0x00000cc0   Section        0  piano.o(.text._ZN5Piano9playNoteFEv)
-    [Anonymous Symbol]                       0x00000d04   Section        0  musicbox.o(.text._ZN5PianoC2Ev)
-    [Anonymous Symbol]                       0x00000d18   Section        0  sound.o(.text._ZN5Sound10nextOctaveEv)
-    [Anonymous Symbol]                       0x00000d38   Section        0  sound.o(.text._ZN5Sound4initEv)
-    [Anonymous Symbol]                       0x00000d64   Section        0  sound.o(.text._ZN5Sound4stopEv)
-    [Anonymous Symbol]                       0x00000d7c   Section        0  sound.o(.text._ZN5Sound5DelayEv)
-    [Anonymous Symbol]                       0x00000da0   Section        0  sound.o(.text._ZN5Sound5startEm)
-    [Anonymous Symbol]                       0x00000dc4   Section        0  sound.o(.text._ZN5Sound7getModeEv)
-    [Anonymous Symbol]                       0x00000dd4   Section        0  sound.o(.text._ZN5Sound7setModeEb)
-    [Anonymous Symbol]                       0x00000dec   Section        0  sound.o(.text._ZN5Sound8DAC_InitEv)
-    [Anonymous Symbol]                       0x00000e68   Section        0  sound.o(.text._ZN5Sound9updateDACEv)
-    [Anonymous Symbol]                       0x00000e8c   Section        0  musicbox.o(.text._ZN5SoundC2Ev)
-    [Anonymous Symbol]                       0x00000ed0   Section        0  sound.o(.text._ZN7SysTick16set_Current_NoteEm)
-    [Anonymous Symbol]                       0x00000ef4   Section        0  sound.o(.text._ZN7SysTick4initEv)
-    [Anonymous Symbol]                       0x00000f24   Section        0  sound.o(.text._ZN7SysTick4stopEv)
-    [Anonymous Symbol]                       0x00000f3c   Section        0  sound.o(.text._ZN7SysTick5startEv)
-    __cxx_global_var_init                    0x00000f55   Thumb Code    16  musicbox.o(.text.__cxx_global_var_init)
-    [Anonymous Symbol]                       0x00000f54   Section        0  musicbox.o(.text.__cxx_global_var_init)
-    __cxx_global_var_init                    0x00000f65   Thumb Code    16  music.o(.text.__cxx_global_var_init)
-    [Anonymous Symbol]                       0x00000f64   Section        0  music.o(.text.__cxx_global_var_init)
-    __cxx_global_var_init.1                  0x00000f75   Thumb Code    16  musicbox.o(.text.__cxx_global_var_init.1)
-    [Anonymous Symbol]                       0x00000f74   Section        0  musicbox.o(.text.__cxx_global_var_init.1)
-    __cxx_global_var_init.2                  0x00000f85   Thumb Code    16  musicbox.o(.text.__cxx_global_var_init.2)
-    [Anonymous Symbol]                       0x00000f84   Section        0  musicbox.o(.text.__cxx_global_var_init.2)
-    [Anonymous Symbol]                       0x00000f94   Section        0  musicbox.o(.text.main)
-    .Lconstinit                              0x00000ff6   Data          64  musicbox.o(.rodata..Lconstinit)
-    .Lconstinit                              0x00001036   Data          52  music.o(.rodata..Lconstinit)
-    .Lconstinit.1                            0x0000106a   Data          86  music.o(.rodata..Lconstinit.1)
-    .Lconstinit.3                            0x000010c0   Data         112  musicbox.o(.rodata..Lconstinit.3)
-    .init_array                              0x00001148   Section        0  init_aeabi.o(.init_array)
+    [Anonymous Symbol]                       0x00000608   Section        0  buttonled.o(.text.GPIOPortF_Handler)
+    [Anonymous Symbol]                       0x000006c8   Section        0  sound.o(.text.SysTick_Handler)
+    _GLOBAL__sub_I_Music.cpp                 0x000006e9   Thumb Code     8  music.o(.text._GLOBAL__sub_I_Music.cpp)
+    [Anonymous Symbol]                       0x000006e8   Section        0  music.o(.text._GLOBAL__sub_I_Music.cpp)
+    _GLOBAL__sub_I_MusicBox.cpp              0x000006f1   Thumb Code    16  musicbox.o(.text._GLOBAL__sub_I_MusicBox.cpp)
+    [Anonymous Symbol]                       0x000006f0   Section        0  musicbox.o(.text._GLOBAL__sub_I_MusicBox.cpp)
+    [Anonymous Symbol]                       0x00000700   Section        0  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortD_InitEv)
+    [Anonymous Symbol]                       0x00000820   Section        0  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortF_InitEv)
+    [Anonymous Symbol]                       0x00000940   Section        0  buttonled.o(.text._ZN11ButtonsLEDs4initEv)
+    [Anonymous Symbol]                       0x00000958   Section        0  music.o(.text._ZN4SongC2Ev)
+    [Anonymous Symbol]                       0x00000aa8   Section        0  music.o(.text._ZN5Music8nextSongEv)
+    [Anonymous Symbol]                       0x00000ad0   Section        0  music.o(.text._ZN5Music8playSongEv)
+    [Anonymous Symbol]                       0x00000c14   Section        0  music.o(.text._ZN5MusicC2Ev)
+    [Anonymous Symbol]                       0x00000c4c   Section        0  piano.o(.text._ZN5Piano9playNoteCEv)
+    [Anonymous Symbol]                       0x00000c8c   Section        0  piano.o(.text._ZN5Piano9playNoteDEv)
+    [Anonymous Symbol]                       0x00000cd0   Section        0  piano.o(.text._ZN5Piano9playNoteEEv)
+    [Anonymous Symbol]                       0x00000d14   Section        0  piano.o(.text._ZN5Piano9playNoteFEv)
+    [Anonymous Symbol]                       0x00000d58   Section        0  musicbox.o(.text._ZN5PianoC2Ev)
+    [Anonymous Symbol]                       0x00000d6c   Section        0  sound.o(.text._ZN5Sound10nextOctaveEv)
+    [Anonymous Symbol]                       0x00000d8c   Section        0  sound.o(.text._ZN5Sound4initEv)
+    [Anonymous Symbol]                       0x00000db8   Section        0  sound.o(.text._ZN5Sound4stopEv)
+    [Anonymous Symbol]                       0x00000dd0   Section        0  sound.o(.text._ZN5Sound5DelayEv)
+    [Anonymous Symbol]                       0x00000df4   Section        0  sound.o(.text._ZN5Sound5startEm)
+    [Anonymous Symbol]                       0x00000e18   Section        0  sound.o(.text._ZN5Sound7getModeEv)
+    [Anonymous Symbol]                       0x00000e28   Section        0  sound.o(.text._ZN5Sound7setModeEb)
+    [Anonymous Symbol]                       0x00000e40   Section        0  sound.o(.text._ZN5Sound8DAC_InitEv)
+    [Anonymous Symbol]                       0x00000ebc   Section        0  sound.o(.text._ZN5Sound9updateDACEv)
+    [Anonymous Symbol]                       0x00000ee0   Section        0  musicbox.o(.text._ZN5SoundC2Ev)
+    [Anonymous Symbol]                       0x00000f24   Section        0  sound.o(.text._ZN7SysTick16set_Current_NoteEm)
+    [Anonymous Symbol]                       0x00000f48   Section        0  sound.o(.text._ZN7SysTick4initEv)
+    [Anonymous Symbol]                       0x00000f78   Section        0  sound.o(.text._ZN7SysTick4stopEv)
+    [Anonymous Symbol]                       0x00000f90   Section        0  sound.o(.text._ZN7SysTick5startEv)
+    __cxx_global_var_init                    0x00000fa9   Thumb Code    16  musicbox.o(.text.__cxx_global_var_init)
+    [Anonymous Symbol]                       0x00000fa8   Section        0  musicbox.o(.text.__cxx_global_var_init)
+    __cxx_global_var_init                    0x00000fb9   Thumb Code    16  music.o(.text.__cxx_global_var_init)
+    [Anonymous Symbol]                       0x00000fb8   Section        0  music.o(.text.__cxx_global_var_init)
+    __cxx_global_var_init.1                  0x00000fc9   Thumb Code    16  musicbox.o(.text.__cxx_global_var_init.1)
+    [Anonymous Symbol]                       0x00000fc8   Section        0  musicbox.o(.text.__cxx_global_var_init.1)
+    __cxx_global_var_init.2                  0x00000fd9   Thumb Code    16  musicbox.o(.text.__cxx_global_var_init.2)
+    [Anonymous Symbol]                       0x00000fd8   Section        0  musicbox.o(.text.__cxx_global_var_init.2)
+    [Anonymous Symbol]                       0x00000fe8   Section        0  musicbox.o(.text.main)
+    .Lconstinit                              0x0000104a   Data          64  musicbox.o(.rodata..Lconstinit)
+    .Lconstinit                              0x0000108a   Data          52  music.o(.rodata..Lconstinit)
+    .Lconstinit.1                            0x000010be   Data          86  music.o(.rodata..Lconstinit.1)
+    .Lconstinit.3                            0x00001114   Data         112  musicbox.o(.rodata..Lconstinit.3)
+    .init_array                              0x0000119c   Section        0  init_aeabi.o(.init_array)
     .bss                                     0x20000000   Section       96  libspace.o(.bss)
     HeapMem                                  0x20000420   Data           0  startup.o(HEAP)
     StackMem                                 0x20000420   Data           0  startup.o(STACK)
@@ -749,41 +749,41 @@ Image Symbol Table
     __use_no_semihosting_swi                 0x000004b5   Thumb Code     2  use_no_semi.o(.text)
     __semihosting_library_function           0x000004b7   Thumb Code     0  indicate_semi.o(.text)
     _sys_exit                                0x000004b9   Thumb Code     8  sys_exit.o(.text)
-    GPIOPortD_Handler                        0x000004c5   Thumb Code   234  buttonled.o(.text.GPIOPortD_Handler)
-    GPIOPortF_Handler                        0x000005b1   Thumb Code   190  buttonled.o(.text.GPIOPortF_Handler)
-    SysTick_Handler                          0x00000671   Thumb Code    32  sound.o(.text.SysTick_Handler)
-    ButtonsLEDs::GPIOPortD_Init()            0x000006a9   Thumb Code   288  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortD_InitEv)
-    ButtonsLEDs::GPIOPortF_Init()            0x000007c9   Thumb Code   288  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortF_InitEv)
-    ButtonsLEDs::init()                      0x000008e9   Thumb Code    24  buttonled.o(.text._ZN11ButtonsLEDs4initEv)
-    Song::Song__sub_object()                 0x00000901   Thumb Code   334  music.o(.text._ZN4SongC2Ev)
-    Music::nextSong()                        0x00000a51   Thumb Code    40  music.o(.text._ZN5Music8nextSongEv)
-    Music::playSong()                        0x00000a79   Thumb Code   324  music.o(.text._ZN5Music8playSongEv)
-    Music::Music()                           0x00000bbd   Thumb Code    58  music.o(.text._ZN5MusicC2Ev)
-    Music::Music__sub_object()               0x00000bbd   Thumb Code    58  music.o(.text._ZN5MusicC2Ev)
-    Piano::playNoteC()                       0x00000bf9   Thumb Code    64  piano.o(.text._ZN5Piano9playNoteCEv)
-    Piano::playNoteD()                       0x00000c39   Thumb Code    66  piano.o(.text._ZN5Piano9playNoteDEv)
-    Piano::playNoteE()                       0x00000c7d   Thumb Code    66  piano.o(.text._ZN5Piano9playNoteEEv)
-    Piano::playNoteF()                       0x00000cc1   Thumb Code    66  piano.o(.text._ZN5Piano9playNoteFEv)
-    Piano::Piano__sub_object()               0x00000d05   Thumb Code    20  musicbox.o(.text._ZN5PianoC2Ev)
-    Sound::nextOctave()                      0x00000d19   Thumb Code    30  sound.o(.text._ZN5Sound10nextOctaveEv)
-    Sound::init()                            0x00000d39   Thumb Code    42  sound.o(.text._ZN5Sound4initEv)
-    Sound::stop()                            0x00000d65   Thumb Code    22  sound.o(.text._ZN5Sound4stopEv)
-    Sound::Delay()                           0x00000d7d   Thumb Code    34  sound.o(.text._ZN5Sound5DelayEv)
-    Sound::start(unsigned long)              0x00000da1   Thumb Code    36  sound.o(.text._ZN5Sound5startEm)
-    Sound::getMode()                         0x00000dc5   Thumb Code    16  sound.o(.text._ZN5Sound7getModeEv)
-    Sound::setMode(bool)                     0x00000dd5   Thumb Code    24  sound.o(.text._ZN5Sound7setModeEb)
-    Sound::DAC_Init()                        0x00000ded   Thumb Code   124  sound.o(.text._ZN5Sound8DAC_InitEv)
-    Sound::updateDAC()                       0x00000e69   Thumb Code    36  sound.o(.text._ZN5Sound9updateDACEv)
-    Sound::Sound__sub_object()               0x00000e8d   Thumb Code    66  musicbox.o(.text._ZN5SoundC2Ev)
-    SysTick::set_Current_Note(unsigned long) 0x00000ed1   Thumb Code    36  sound.o(.text._ZN7SysTick16set_Current_NoteEm)
-    SysTick::init()                          0x00000ef5   Thumb Code    46  sound.o(.text._ZN7SysTick4initEv)
-    SysTick::stop()                          0x00000f25   Thumb Code    24  sound.o(.text._ZN7SysTick4stopEv)
-    SysTick::start()                         0x00000f3d   Thumb Code    24  sound.o(.text._ZN7SysTick5startEv)
-    main                                     0x00000f95   Thumb Code    98  musicbox.o(.text.main)
-    Region$$Table$$Base                      0x00001130   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00001140   Number         0  anon$$obj.o(Region$$Table)
-    SHT$$INIT_ARRAY$$Base                    0x00001140   Number         0  musicbox.o(.init_array)
-    SHT$$INIT_ARRAY$$Limit                   0x00001148   Number         0  init_aeabi.o(.init_array)
+    GPIOPortD_Handler                        0x000004c5   Thumb Code   322  buttonled.o(.text.GPIOPortD_Handler)
+    GPIOPortF_Handler                        0x00000609   Thumb Code   190  buttonled.o(.text.GPIOPortF_Handler)
+    SysTick_Handler                          0x000006c9   Thumb Code    32  sound.o(.text.SysTick_Handler)
+    ButtonsLEDs::GPIOPortD_Init()            0x00000701   Thumb Code   288  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortD_InitEv)
+    ButtonsLEDs::GPIOPortF_Init()            0x00000821   Thumb Code   288  buttonled.o(.text._ZN11ButtonsLEDs14GPIOPortF_InitEv)
+    ButtonsLEDs::init()                      0x00000941   Thumb Code    24  buttonled.o(.text._ZN11ButtonsLEDs4initEv)
+    Song::Song__sub_object()                 0x00000959   Thumb Code   334  music.o(.text._ZN4SongC2Ev)
+    Music::nextSong()                        0x00000aa9   Thumb Code    40  music.o(.text._ZN5Music8nextSongEv)
+    Music::playSong()                        0x00000ad1   Thumb Code   324  music.o(.text._ZN5Music8playSongEv)
+    Music::Music()                           0x00000c15   Thumb Code    56  music.o(.text._ZN5MusicC2Ev)
+    Music::Music__sub_object()               0x00000c15   Thumb Code    56  music.o(.text._ZN5MusicC2Ev)
+    Piano::playNoteC()                       0x00000c4d   Thumb Code    64  piano.o(.text._ZN5Piano9playNoteCEv)
+    Piano::playNoteD()                       0x00000c8d   Thumb Code    66  piano.o(.text._ZN5Piano9playNoteDEv)
+    Piano::playNoteE()                       0x00000cd1   Thumb Code    66  piano.o(.text._ZN5Piano9playNoteEEv)
+    Piano::playNoteF()                       0x00000d15   Thumb Code    66  piano.o(.text._ZN5Piano9playNoteFEv)
+    Piano::Piano__sub_object()               0x00000d59   Thumb Code    20  musicbox.o(.text._ZN5PianoC2Ev)
+    Sound::nextOctave()                      0x00000d6d   Thumb Code    30  sound.o(.text._ZN5Sound10nextOctaveEv)
+    Sound::init()                            0x00000d8d   Thumb Code    42  sound.o(.text._ZN5Sound4initEv)
+    Sound::stop()                            0x00000db9   Thumb Code    22  sound.o(.text._ZN5Sound4stopEv)
+    Sound::Delay()                           0x00000dd1   Thumb Code    34  sound.o(.text._ZN5Sound5DelayEv)
+    Sound::start(unsigned long)              0x00000df5   Thumb Code    36  sound.o(.text._ZN5Sound5startEm)
+    Sound::getMode()                         0x00000e19   Thumb Code    16  sound.o(.text._ZN5Sound7getModeEv)
+    Sound::setMode(bool)                     0x00000e29   Thumb Code    24  sound.o(.text._ZN5Sound7setModeEb)
+    Sound::DAC_Init()                        0x00000e41   Thumb Code   124  sound.o(.text._ZN5Sound8DAC_InitEv)
+    Sound::updateDAC()                       0x00000ebd   Thumb Code    36  sound.o(.text._ZN5Sound9updateDACEv)
+    Sound::Sound__sub_object()               0x00000ee1   Thumb Code    66  musicbox.o(.text._ZN5SoundC2Ev)
+    SysTick::set_Current_Note(unsigned long) 0x00000f25   Thumb Code    36  sound.o(.text._ZN7SysTick16set_Current_NoteEm)
+    SysTick::init()                          0x00000f49   Thumb Code    46  sound.o(.text._ZN7SysTick4initEv)
+    SysTick::stop()                          0x00000f79   Thumb Code    24  sound.o(.text._ZN7SysTick4stopEv)
+    SysTick::start()                         0x00000f91   Thumb Code    24  sound.o(.text._ZN7SysTick5startEv)
+    main                                     0x00000fe9   Thumb Code    98  musicbox.o(.text.main)
+    Region$$Table$$Base                      0x00001184   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00001194   Number         0  anon$$obj.o(Region$$Table)
+    SHT$$INIT_ARRAY$$Base                    0x00001194   Number         0  musicbox.o(.init_array)
+    SHT$$INIT_ARRAY$$Limit                   0x0000119c   Number         0  init_aeabi.o(.init_array)
     __libspace_start                         0x20000000   Data          96  libspace.o(.bss)
     __temporary_stack_top$libspace           0x20000060   Data           0  libspace.o(.bss)
     buttonsLEDs                              0x20000060   Data           1  musicbox.o(.bss.buttonsLEDs)
@@ -801,9 +801,9 @@ Memory Map of the image
 
   Image Entry point : 0x0000026d
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00001148, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x0000119c, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00001148, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x0000119c, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -867,83 +867,82 @@ Memory Map of the image
     0x000004b6   0x000004b6   0x00000000   Code   RO          271    .text               c_w.l(indicate_semi.o)
     0x000004b6   0x000004b6   0x00000002   PAD
     0x000004b8   0x000004b8   0x0000000c   Code   RO          285    .text               c_w.l(sys_exit.o)
-    0x000004c4   0x000004c4   0x000000ea   Code   RO          143    .text.GPIOPortD_Handler  buttonled.o
-    0x000005ae   0x000005ae   0x00000002   PAD
-    0x000005b0   0x000005b0   0x000000be   Code   RO          145    .text.GPIOPortF_Handler  buttonled.o
-    0x0000066e   0x0000066e   0x00000002   PAD
-    0x00000670   0x00000670   0x00000020   Code   RO           92    .text.SysTick_Handler  sound.o
-    0x00000690   0x00000690   0x00000008   Code   RO           56    .text._GLOBAL__sub_I_Music.cpp  music.o
-    0x00000698   0x00000698   0x00000010   Code   RO           21    .text._GLOBAL__sub_I_MusicBox.cpp  musicbox.o
-    0x000006a8   0x000006a8   0x00000120   Code   RO          139    .text._ZN11ButtonsLEDs14GPIOPortD_InitEv  buttonled.o
-    0x000007c8   0x000007c8   0x00000120   Code   RO          137    .text._ZN11ButtonsLEDs14GPIOPortF_InitEv  buttonled.o
-    0x000008e8   0x000008e8   0x00000018   Code   RO          141    .text._ZN11ButtonsLEDs4initEv  buttonled.o
-    0x00000900   0x00000900   0x0000014e   Code   RO           70    .text._ZN4SongC2Ev  music.o
-    0x00000a4e   0x00000a4e   0x00000002   PAD
-    0x00000a50   0x00000a50   0x00000028   Code   RO           46    .text._ZN5Music8nextSongEv  music.o
-    0x00000a78   0x00000a78   0x00000144   Code   RO           54    .text._ZN5Music8playSongEv  music.o
-    0x00000bbc   0x00000bbc   0x0000003a   Code   RO           44    .text._ZN5MusicC2Ev  music.o
-    0x00000bf6   0x00000bf6   0x00000002   PAD
-    0x00000bf8   0x00000bf8   0x00000040   Code   RO          110    .text._ZN5Piano9playNoteCEv  piano.o
-    0x00000c38   0x00000c38   0x00000042   Code   RO          112    .text._ZN5Piano9playNoteDEv  piano.o
-    0x00000c7a   0x00000c7a   0x00000002   PAD
-    0x00000c7c   0x00000c7c   0x00000042   Code   RO          114    .text._ZN5Piano9playNoteEEv  piano.o
-    0x00000cbe   0x00000cbe   0x00000002   PAD
-    0x00000cc0   0x00000cc0   0x00000042   Code   RO          116    .text._ZN5Piano9playNoteFEv  piano.o
-    0x00000d02   0x00000d02   0x00000002   PAD
-    0x00000d04   0x00000d04   0x00000014   Code   RO           39    .text._ZN5PianoC2Ev  musicbox.o
-    0x00000d18   0x00000d18   0x0000001e   Code   RO           84    .text._ZN5Sound10nextOctaveEv  sound.o
-    0x00000d36   0x00000d36   0x00000002   PAD
-    0x00000d38   0x00000d38   0x0000002a   Code   RO           76    .text._ZN5Sound4initEv  sound.o
-    0x00000d62   0x00000d62   0x00000002   PAD
-    0x00000d64   0x00000d64   0x00000016   Code   RO           82    .text._ZN5Sound4stopEv  sound.o
-    0x00000d7a   0x00000d7a   0x00000002   PAD
-    0x00000d7c   0x00000d7c   0x00000022   Code   RO           86    .text._ZN5Sound5DelayEv  sound.o
-    0x00000d9e   0x00000d9e   0x00000002   PAD
-    0x00000da0   0x00000da0   0x00000024   Code   RO           80    .text._ZN5Sound5startEm  sound.o
-    0x00000dc4   0x00000dc4   0x00000010   Code   RO           90    .text._ZN5Sound7getModeEv  sound.o
-    0x00000dd4   0x00000dd4   0x00000018   Code   RO           88    .text._ZN5Sound7setModeEb  sound.o
-    0x00000dec   0x00000dec   0x0000007c   Code   RO           74    .text._ZN5Sound8DAC_InitEv  sound.o
-    0x00000e68   0x00000e68   0x00000024   Code   RO           78    .text._ZN5Sound9updateDACEv  sound.o
-    0x00000e8c   0x00000e8c   0x00000042   Code   RO           37    .text._ZN5SoundC2Ev  musicbox.o
-    0x00000ece   0x00000ece   0x00000002   PAD
-    0x00000ed0   0x00000ed0   0x00000024   Code   RO          103    .text._ZN7SysTick16set_Current_NoteEm  sound.o
-    0x00000ef4   0x00000ef4   0x0000002e   Code   RO          101    .text._ZN7SysTick4initEv  sound.o
+    0x000004c4   0x000004c4   0x00000142   Code   RO          143    .text.GPIOPortD_Handler  buttonled.o
+    0x00000606   0x00000606   0x00000002   PAD
+    0x00000608   0x00000608   0x000000be   Code   RO          145    .text.GPIOPortF_Handler  buttonled.o
+    0x000006c6   0x000006c6   0x00000002   PAD
+    0x000006c8   0x000006c8   0x00000020   Code   RO           92    .text.SysTick_Handler  sound.o
+    0x000006e8   0x000006e8   0x00000008   Code   RO           56    .text._GLOBAL__sub_I_Music.cpp  music.o
+    0x000006f0   0x000006f0   0x00000010   Code   RO           21    .text._GLOBAL__sub_I_MusicBox.cpp  musicbox.o
+    0x00000700   0x00000700   0x00000120   Code   RO          139    .text._ZN11ButtonsLEDs14GPIOPortD_InitEv  buttonled.o
+    0x00000820   0x00000820   0x00000120   Code   RO          137    .text._ZN11ButtonsLEDs14GPIOPortF_InitEv  buttonled.o
+    0x00000940   0x00000940   0x00000018   Code   RO          141    .text._ZN11ButtonsLEDs4initEv  buttonled.o
+    0x00000958   0x00000958   0x0000014e   Code   RO           70    .text._ZN4SongC2Ev  music.o
+    0x00000aa6   0x00000aa6   0x00000002   PAD
+    0x00000aa8   0x00000aa8   0x00000028   Code   RO           46    .text._ZN5Music8nextSongEv  music.o
+    0x00000ad0   0x00000ad0   0x00000144   Code   RO           54    .text._ZN5Music8playSongEv  music.o
+    0x00000c14   0x00000c14   0x00000038   Code   RO           44    .text._ZN5MusicC2Ev  music.o
+    0x00000c4c   0x00000c4c   0x00000040   Code   RO          110    .text._ZN5Piano9playNoteCEv  piano.o
+    0x00000c8c   0x00000c8c   0x00000042   Code   RO          112    .text._ZN5Piano9playNoteDEv  piano.o
+    0x00000cce   0x00000cce   0x00000002   PAD
+    0x00000cd0   0x00000cd0   0x00000042   Code   RO          114    .text._ZN5Piano9playNoteEEv  piano.o
+    0x00000d12   0x00000d12   0x00000002   PAD
+    0x00000d14   0x00000d14   0x00000042   Code   RO          116    .text._ZN5Piano9playNoteFEv  piano.o
+    0x00000d56   0x00000d56   0x00000002   PAD
+    0x00000d58   0x00000d58   0x00000014   Code   RO           39    .text._ZN5PianoC2Ev  musicbox.o
+    0x00000d6c   0x00000d6c   0x0000001e   Code   RO           84    .text._ZN5Sound10nextOctaveEv  sound.o
+    0x00000d8a   0x00000d8a   0x00000002   PAD
+    0x00000d8c   0x00000d8c   0x0000002a   Code   RO           76    .text._ZN5Sound4initEv  sound.o
+    0x00000db6   0x00000db6   0x00000002   PAD
+    0x00000db8   0x00000db8   0x00000016   Code   RO           82    .text._ZN5Sound4stopEv  sound.o
+    0x00000dce   0x00000dce   0x00000002   PAD
+    0x00000dd0   0x00000dd0   0x00000022   Code   RO           86    .text._ZN5Sound5DelayEv  sound.o
+    0x00000df2   0x00000df2   0x00000002   PAD
+    0x00000df4   0x00000df4   0x00000024   Code   RO           80    .text._ZN5Sound5startEm  sound.o
+    0x00000e18   0x00000e18   0x00000010   Code   RO           90    .text._ZN5Sound7getModeEv  sound.o
+    0x00000e28   0x00000e28   0x00000018   Code   RO           88    .text._ZN5Sound7setModeEb  sound.o
+    0x00000e40   0x00000e40   0x0000007c   Code   RO           74    .text._ZN5Sound8DAC_InitEv  sound.o
+    0x00000ebc   0x00000ebc   0x00000024   Code   RO           78    .text._ZN5Sound9updateDACEv  sound.o
+    0x00000ee0   0x00000ee0   0x00000042   Code   RO           37    .text._ZN5SoundC2Ev  musicbox.o
     0x00000f22   0x00000f22   0x00000002   PAD
-    0x00000f24   0x00000f24   0x00000018   Code   RO          107    .text._ZN7SysTick4stopEv  sound.o
-    0x00000f3c   0x00000f3c   0x00000018   Code   RO          105    .text._ZN7SysTick5startEv  sound.o
-    0x00000f54   0x00000f54   0x00000010   Code   RO           13    .text.__cxx_global_var_init  musicbox.o
-    0x00000f64   0x00000f64   0x00000010   Code   RO           42    .text.__cxx_global_var_init  music.o
-    0x00000f74   0x00000f74   0x00000010   Code   RO           15    .text.__cxx_global_var_init.1  musicbox.o
-    0x00000f84   0x00000f84   0x00000010   Code   RO           17    .text.__cxx_global_var_init.2  musicbox.o
-    0x00000f94   0x00000f94   0x00000062   Code   RO           19    .text.main          musicbox.o
-    0x00000ff6   0x00000ff6   0x00000040   Data   RO           27    .rodata..Lconstinit  musicbox.o
-    0x00001036   0x00001036   0x00000034   Data   RO           59    .rodata..Lconstinit  music.o
-    0x0000106a   0x0000106a   0x00000056   Data   RO           60    .rodata..Lconstinit.1  music.o
-    0x000010c0   0x000010c0   0x00000070   Data   RO           28    .rodata..Lconstinit.3  musicbox.o
-    0x00001130   0x00001130   0x00000010   Data   RO          334    Region$$Table       anon$$obj.o
-    0x00001140   0x00001140   0x00000004   Data   RO           29    .init_array         musicbox.o
-    0x00001144   0x00001140   0x00000004   Data   RO           63    .init_array         music.o
-    0x00001148   0x00001140   0x00000000   Data   RO          164    .init_array         c_w.l(init_aeabi.o)
+    0x00000f24   0x00000f24   0x00000024   Code   RO          103    .text._ZN7SysTick16set_Current_NoteEm  sound.o
+    0x00000f48   0x00000f48   0x0000002e   Code   RO          101    .text._ZN7SysTick4initEv  sound.o
+    0x00000f76   0x00000f76   0x00000002   PAD
+    0x00000f78   0x00000f78   0x00000018   Code   RO          107    .text._ZN7SysTick4stopEv  sound.o
+    0x00000f90   0x00000f90   0x00000018   Code   RO          105    .text._ZN7SysTick5startEv  sound.o
+    0x00000fa8   0x00000fa8   0x00000010   Code   RO           13    .text.__cxx_global_var_init  musicbox.o
+    0x00000fb8   0x00000fb8   0x00000010   Code   RO           42    .text.__cxx_global_var_init  music.o
+    0x00000fc8   0x00000fc8   0x00000010   Code   RO           15    .text.__cxx_global_var_init.1  musicbox.o
+    0x00000fd8   0x00000fd8   0x00000010   Code   RO           17    .text.__cxx_global_var_init.2  musicbox.o
+    0x00000fe8   0x00000fe8   0x00000062   Code   RO           19    .text.main          musicbox.o
+    0x0000104a   0x0000104a   0x00000040   Data   RO           27    .rodata..Lconstinit  musicbox.o
+    0x0000108a   0x0000108a   0x00000034   Data   RO           59    .rodata..Lconstinit  music.o
+    0x000010be   0x000010be   0x00000056   Data   RO           60    .rodata..Lconstinit.1  music.o
+    0x00001114   0x00001114   0x00000070   Data   RO           28    .rodata..Lconstinit.3  musicbox.o
+    0x00001184   0x00001184   0x00000010   Data   RO          334    Region$$Table       anon$$obj.o
+    0x00001194   0x00001194   0x00000004   Data   RO           29    .init_array         musicbox.o
+    0x00001198   0x00001194   0x00000004   Data   RO           63    .init_array         music.o
+    0x0000119c   0x00001194   0x00000000   Data   RO          164    .init_array         c_w.l(init_aeabi.o)
 
 
-    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x00001148, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x0000119c, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
 
     **** No section assigned to this execution region ****
 
 
-    Execution Region ER_ZI (Exec base: 0x20000000, Load base: 0x00001148, Size: 0x00000820, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_ZI (Exec base: 0x20000000, Load base: 0x0000119c, Size: 0x00000820, Max: 0xffffffff, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x20000000        -       0x00000060   Zero   RW          259    .bss                c_w.l(libspace.o)
     0x20000060        -       0x00000001   Zero   RW           26    .bss.buttonsLEDs    musicbox.o
-    0x20000061   0x00001148   0x00000003   PAD
+    0x20000061   0x0000119c   0x00000003   PAD
     0x20000064        -       0x000000c8   Zero   RW           24    .bss.music          musicbox.o
     0x2000012c        -       0x000000b8   Zero   RW           25    .bss.piano          musicbox.o
     0x200001e4        -       0x0000017c   Zero   RW           58    .bss.song           music.o
     0x20000360        -       0x000000b8   Zero   RW           23    .bss.sound          musicbox.o
     0x20000418        -       0x00000001   Zero   RW           94    .bss.systick        sound.o
-    0x20000419   0x00001148   0x00000007   PAD
+    0x20000419   0x0000119c   0x00000007   PAD
     0x20000420        -       0x00000000   Zero   RW            2    HEAP                startup.o
     0x20000420        -       0x00000400   Zero   RW            1    STACK               startup.o
 
@@ -955,17 +954,17 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1024          0          0          0          0       2716   buttonled.o
-       780          0        142          0        380       4959   music.o
+      1112          0          0          0          0       2800   buttonled.o
+       778          0        142          0        380       4959   music.o
        248          0        180          0        569       4110   musicbox.o
        262          0          0          0          0       3470   piano.o
        526          0          0          0          1       3758   sound.o
        692        632          0          0       1024        996   startup.o
 
     ----------------------------------------------------------------------
-      3558        632        338          0       1984      20009   Object Totals
+      3642        632        338          0       1984      20093   Object Totals
          0          0         16          0          0          0   (incl. Generated)
-        26          0          0          0         10          0   (incl. Padding)
+        24          0          0          0         10          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -1014,15 +1013,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      4086        656        338          0       2080      20409   Grand Totals
-      4086        656        338          0       2080      20409   ELF Image Totals
-      4086        656        338          0          0          0   ROM Totals
+      4170        656        338          0       2080      20493   Grand Totals
+      4170        656        338          0       2080      20493   ELF Image Totals
+      4170        656        338          0          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 4424 (   4.32kB)
+    Total RO  Size (Code + RO Data)                 4508 (   4.40kB)
     Total RW  Size (RW Data + ZI Data)              2080 (   2.03kB)
-    Total ROM Size (Code + RO Data + RW Data)       4424 (   4.32kB)
+    Total ROM Size (Code + RO Data + RW Data)       4508 (   4.40kB)
 
 ==============================================================================
 

@@ -47,9 +47,9 @@ Song song;
 // Music class functions
 // public:
 Music::Music(void) {
-	songs[0] = song.happyBirthday;
-	songs[1] = song.maryHadALittleLamb;
-	songs[2] = song.twinkleTwinkleLittleStars;
+	songs[0] = song.maryHadALittleLamb;
+	songs[1] = song.twinkleTwinkleLittleStars;
+	songs[2] = song.happyBirthday;
 	songIdx = 0;
 }
 
